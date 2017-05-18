@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>六一倒计时</title>
+    </head>
+    <style>
+    	.box{
+    		width: 500px;
+    		height: 250px;
+    		background: #ff7600;
+    		border-radius: 50%;
+    		margin: 200px auto;
+    	}
+    	h3{
+    		/* line-height: 250px; */
+    		text-align: center;
+    	}
+		.now,.djs{
+			text-align: center;
+			font-size: 20px;
+		}
+		.num{
+			color: #fff;
+		}
+    </style>
+    <body>
+    	<div class="box">
+    		<h3>六一倒计时</h3>
+			<div class="now">
+				<span class="num">0</span><span>时</span>
+				<span class="num">0</span><span>分</span>
+				<span class="num">0</span><span>秒</span>
+				
+			</div>
+			<div class="djs">
+				<span class="num">0</span><span>天</span>
+				<span class="num">0</span><span>时</span>
+				<span class="num">0</span><span>分</span>
+				<span class="num">0</span><span>秒</span>
+			</div>
+    	</div>
+			
+    <script src="function.js"></script>
+    <script>
+    	$(function(){
+    		const h=$(".now span:nth-child(1)")[0];
+    		const m=$(".now span:nth-child(3)")[0];
+    		const s=$(".now span:nth-child(5)")[0];
+
+    		const djsd=$(".djs span:nth-child(1)")[0];
+    		const djsh=$(".djs span:nth-child(3)")[0];
+    		const djsm=$(".djs span:nth-child(5)")[0];
+    		const djss=$(".djs span:nth-child(7)")[0];
+
+    		class time{
+    			constructor(hEle,mEle,sEle){
+    				this.nowh=hEle;
+    				this.nowm=mEle;
+    				this.nows=sEle;
+    			}
+    			play(){
+    		
+    				this.writes(this.getTimes());
+    				this.update();
+    			}
+    			getTimes(){
+    				let date1=new Date();
+    				let h=date1.getHours();
+    				let m=date1.getMinutes();
+    				let s=date1.getSeconds();
+
+    				let map=new Map();
+					map.set("h",h);
+					map.set("m",m);
+					map.set("s",s);
+					return map;
+    			}
+    			writes(map){
+    				this.nowh.innerHTML=map.get("h");
+    				this.nowm.innerHTML=map.get("m");
+    				this.nows.innerHTML=map.get("s");
+    			}
+    			update(){
+    				let that=this;
+    				setInterval(function(){
+						that.writes(that.getTimes());
+    				},1000);
+    			}
+    		}
+    		let newtime=new time(h,m,s);
+    		newtime.play();
+
+
+    		// extends继承
+    		class djstime extends time{
+    			constructor(hEle,mEle,sEle,dEle,date){
+    				// super 继承父类中的constructor
+    				super(hEle,mEle,sEle);
+    				
+    				this.day=dEle;
+    				this.riqi=date;	
+    			}
+    			play(){
+    				let map=this.getchaTime()
+    				// super.writes(map);
+    				this.writes(map);
+    				this.update();
+    				
+    			}
+    			getchaTime(){
+    				let now=new Date();
+    				let chatime =this.riqi.getTime()-now.getTime();
+    				chatime/=1000;
+    				let d=parseInt(chatime/60/60/24);
+    				let h=parseInt(chatime/60/60%24);
+    				let m=parseInt(chatime/60%60);
+    				let s=parseInt(chatime%60);
+
+    				let map=new Map();
+    				map.set("d",d);
+					map.set("h",h);
+					map.set("m",m);
+					map.set("s",s);
+					return map;
+
+    			}
+    			writes(map){
+    				this.day.innerHTML=map.get("d");
+    				super.writes(map);
+    				// this.nowh.innerHTML=map.get("h");
+    				// this.nowm.innerHTML=map.get("m");
+    				// this.nows.innerHTML=map.get("s");
+    			}
+    			update(){
+    				let that=this;
+    				setInterval(function(){
+						that.writes(that.getchaTime());
+						// this.writes(map);
+    				},1000);
+    			}
+    		}
+    		let wuyi=new Date(2017,5,1,0,0,0);
+    		let wydjs=new djstime(djsh,djsm,djss,djsd,wuyi);
+    		// console.log(wydjs.riqi);
+    		wydjs.play();
+
+
+    	})
+
+
+    </script>
+    </body>
+</html>
