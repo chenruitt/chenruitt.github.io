@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .scene {
+            width: 500px;
+            height: 500px;
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+            margin: 50px auto;
+        }
+
+        .block {
+            width: 50px;
+            height: 50px;
+            background: #000;
+            float: left;
+            box-sizing: border-box;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .control {
+            width: 100px;
+            height: 100%;
+            position: fixed;
+            right: 50px;
+            top: 0;
+        }
+
+        .lei {
+
+        }
+
+        .show {
+            background: red;
+        }
+
+        .num {
+            background: #fff;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .this {
+            background: #b9ffa9;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .flagnum {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .zhe {
+            width: 500px;
+            height: 500px;
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+            position: absolute;
+            left: 50%;
+            margin-left: -250px;
+            top: 50px;
+            /*margin: 50px auto;*/
+            font-size: 36px;
+            text-align: center;
+            line-height: 500px;
+            color: #fff;
+            font-weight: bold;
+            background: #000;
+        }
+
+        .zhe div {
+            cursor: pointer;
+        }
+
+        time {
+            /*position: absolute;*/
+            /*right: 50px;*/
+            /*top: 50px;*/
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .cxks {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="zhe">
+    <div>开始游戏</div>
+</div>
+<div class="scene">
+
+</div>
+<div class="control">
+    <time>游戏时间0秒</time>
+    <div class="flagnum">flag:10</div>
+    <div class="cxks">重新开始</div>
+    <!--<div>难度选择</div>-->
+    <!--<div>排行榜</div>-->
+</div>
+</body>
+<script src="../jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var num = 10;
+        function move() {
+
+            do {
+                $(".scene").empty();
+                for (var i = 0; i < 10; i++) {
+                    for (var j = 0; j < 10; j++) {
+                        var isLei = Math.random() > 0.9;
+
+                        $("<div>")
+                            .addClass(function () {
+                                if (isLei) {
+                                    return "block lei"
+                                } else {
+                                    return "block"
+                                }
+                            })
+                            .attr("id", i + "" + j)
+                            .data("pos", {x: i, y: j})
+                            .mousedown(mousedownEvent)
+                            .appendTo(".scene")
+                    }
+                }
+            } while ($(".lei").length != 10);
+        }
+
+
+        function mousedownEvent(e) {
+            if (e.which == 1) {
+                leftclick.call(this);
+            } else {
+                rightclick.call(this);
+            }
+        }
+
+        $(document).on("contextmenu",function (e) {
+            e.preventDefault();
+        });
+        function leftclick() {
+            if ($(this).hasClass("this")) {
+                return;
+            }
+            if ($(this).hasClass("lei")) {
+                $(".lei").addClass("show");
+                alert("Game over!");
+                clearInterval(t);
+                return;
+
+            } else {
+                $(this).addClass("num");
+                var pos = $(this).data("pos");
+                var n = 0;
+                if ($("#" + (pos.x - 1) + "" + (pos.y - 1)).hasClass("lei")) {
+                    n++;
+                }
+                if ($("#" + (pos.x - 1) + "" + pos.y).hasClass("lei")) {
+                    n++;
+                }
+                if ($("#" + (pos.x - 1) + "" + (pos.y + 1)).hasClass("lei")) {
+                    n++;
+                }
+                if ($("#" + (pos.x) + "" + (pos.y + 1)).hasClass("lei")) {
+                    n++;
+                }
+                if ($("#" + (pos.x) + "" + (pos.y - 1)).hasClass("lei")) {
+                    n++;
+                }
+                if ($("#" + (pos.x + 1) + "" + (pos.y - 1)).hasClass("lei")) {
+                    n++;
+                }
+                if ($("#" + (pos.x + 1) + "" + pos.y).hasClass("lei")) {
+                    n++;
+                }
+                if ($("#" + (pos.x + 1) + "" + (pos.y + 1)).hasClass("lei")) {
+                    n++;
+                }
+                $(this).html(n);
+                if (n == 0) {
+                    for (var i = pos.x - 1; i <= pos.x + 1; i++) {
+                        for (var j = pos.y - 1; j <= pos.y + 1; j++) {
+                            var obj = $("#" + i + "" + j)
+                            if (obj.length == 1) {
+//                                if(!obj.data("clicked")){
+//                                    obj.data("clicked",true);
+//                                    leftclick.call(obj[0])
+//                                }
+                                if (!obj.hasClass("num")) {
+                                    leftclick.call(obj[0])
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        function rightclick() {
+            if ($(this).hasClass("num")) {
+                return;
+            }
+            if ($(this).hasClass("this")) {
+                $(this).html("");
+                $(this).removeClass("this")
+                num++;
+                $(".flagnum").html("flag:" + num);
+            } else {
+                num--;
+                $(this).addClass("this");
+                $(this).html("雷");
+                $(".flagnum").html("flag:" + num);
+//                if(num==0&&$(".this").filter(".lei").length==10){
+//                    alert("成功")
+//                }else{
+//                    alert()
+//                    num++;
+//                    return;
+//                }
+                if (num == 0) {
+                    if ($(".this").filter(".lei").length == 10) {
+                        alert("成功");
+                        clearInterval(t);
+                    }
+                }
+                if (num < 0) {
+                    alert("游戏失败");
+                    clearInterval(t);
+                    return;
+                }
+
+            }
+
+        }
+
+        var t = setInterval(times, 1000);
+        var shijian = 0;
+        clearInterval(t);
+
+        function times() {
+//            var shijian=0;
+            shijian++;
+            $("time").html("游戏时间" + shijian + "秒");
+        }
+
+        $(".zhe").click(function () {
+            move();
+            $(this).css("display", "none");
+            t = setInterval(times, 1000);
+
+        })
+        $(".cxks").click(function () {
+            move();
+            shijian=0;
+            $("time").html("游戏时间" + shijian + "秒");
+            clearInterval(t);
+            t = setInterval(times, 1000);
+
+
+        })
+    })
+</script>
+</html>

@@ -1,0 +1,497 @@
+/*头部*/
+header{
+    width:100%;
+    height:180px;
+}
+
+/*header .swiper-container .swiper-wrapper{*/
+    /*width:100%;*/
+    /*height:auto;*/
+/*}*/
+/*header .swiper-container > .swiper-wrapper > img{*/
+    /*width:100%;*/
+    /*position:absolute;*/
+    /*left:0;*/
+    /*top:0;*/
+/*}*/
+header > div[class=nav]{
+    width:100%;
+    height:45px;
+    background:rgba(0,0,0,0.3);
+    position:fixed;
+    left:0;
+    top:0;
+    z-index: 100;
+}
+header > div[class=nav] > h1{
+    float:left;
+    width:20%;
+    height:100%;
+    text-align:center;
+    font-size:16px;
+    line-height:45px;
+    color:#fff;
+}
+header > div[class=nav] > form > input{
+    float:left;
+    width:60%;
+    height:37px;
+    text-indent:12px;
+    box-sizing:border-box;
+    font-size:16px;
+    margin-top:4px;
+}
+
+/*头部结束*/
+/*一楼*/
+div[class=first-floor]{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    margin-top:10px;
+}
+div[class=first-floor] > ul[class=list-one]{
+    width:100%;
+    height:auto;
+}
+div[class=first-floor] > ul[class=list-one] > li{
+    width:20%;
+    height:auto;
+    float:left;
+    text-align:center;
+}
+div[class=first-floor] > ul[class=list-one] > li:nth-child(5)~li{
+    margin-top:10px;
+}
+div[class=first-floor] > ul[class=list-one] > li > a{
+    color:gray;
+}
+
+div[class=first-floor] > ul[class=list-one] > li > a > img{
+    width:36px;
+}
+div[class=first-floor] > ul[class=list-one] > li > a > h6{
+    font-size:12px;
+    padding:3px 0;
+}
+/*一楼结束*/
+/*二楼*/
+.second-floor{
+    width:100%;
+    height:60px;
+    padding:10px 0;
+    box-sizing:border-box;
+}
+.second-floor img:first-child{
+    float:left;
+    height:40px;
+    margin:0 10px;
+}
+.second-floor div:nth-child(2){
+    float:left;
+    width:1px;
+    height:40px;
+    background:#e4e4e4;
+}
+.second-floor img:nth-child(3){
+    float:left;
+    height:30px;
+    margin-top:5px;
+    margin-left:8px;
+}
+.second-floor div:nth-child(4){
+    width:65%;
+    height:40px;
+    float:left;
+    overflow: hidden;
+}
+.second-floor div:nth-child(4) .swiper-container2{
+    height:40px;
+}
+.second-floor div:nth-child(4) .swiper-slide{
+    width:100%;
+    height:40px;
+    padding-left:10px;
+    box-sizing:border-box;
+    background: #fff;
+}
+.second-floor div:nth-child(4) h1{
+    width:100%;
+    height:20px;
+    font-size:12px;
+    font-weight:normal;
+}
+.second-floor div:nth-child(4) h1:last-child{
+    color:red;
+}
+/*二楼结束*/
+/*三楼*/
+.third{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    background:#F0F0F0;
+    padding-left:10px;
+    padding-top:4px;
+    box-sizing:border-box;
+}
+.third > .swiper-wrapper{
+    width:724px;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+.third a > img{
+    width:176px;
+    float:left;
+}
+/*三楼结束*/
+div[class=biqiang]{
+    width:100%;
+    height:38px;
+    background:#f0f0f0;
+    position:relative;
+}
+div[class=biqiang] > div{
+    width:44%;
+    height:1px;
+    background:#FF2E2E;
+    margin:0 auto;
+    position:absolute;
+    left:28%;
+    top:49%;
+}
+div[class=biqiang] > h1{
+    width:20%;
+    height:38px;
+    line-height:38px;
+    color:#FF2E2E;
+    position:absolute;
+    left:40%;
+    top:0;
+    background:#f0f0f0;
+    font-size:16px;
+    text-align:center;
+}
+div[class=biqiang] > h1 > img{
+    height:18px;
+    margin-right:5px;
+}
+/*四楼*/
+div[class=fourth]{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    padding-top:10px;
+    box-sizing:border-box;
+}
+div[class=fourth] > ul[class=list-two]{
+    width:100%;
+    height:auto;
+    background:#000;
+}
+div[class=fourth] > ul[class=list-two] > li{
+    width:25%;
+    height:auto;
+    float:left;
+    text-align:center;
+}
+div[class=fourth] > ul[class=list-two] > li:nth-child(4){
+    width:25%;
+    height:auto;
+    float:left;
+    text-align:center;
+    border-left:1px solid #e4e4e4;
+    border-bottom:1px solid #e4e4e4;
+    box-sizing:border-box;
+}
+div[class=fourth] > ul[class=list-two] > li:nth-child(8){
+    width:25%;
+    height:auto;
+    float:left;
+    text-align:center;
+    border-left:1px solid #e4e4e4;
+    box-sizing:border-box;
+}
+div[class=fourth] > ul[class=list-two] > li > a > h1{
+    width:100%;
+    font-size:14px;
+    color:#000;
+}
+div[class=fourth] > ul[class=list-two] > li > a > div{
+    width:100%;
+    padding:3px;
+    box-sizing:border-box;
+}
+div[class=fourth] > ul[class=list-two] > li > a > div > img{
+    width:100%;
+}
+div[class=fourth] > ul[class=list-two] > li > a > h2{
+    font-size:12px;
+    color:#FF2E2E;
+}
+div[class=fourth] > ul[class=list-two] > li > a > h2 > s{
+    color:#B6B6B6;
+}
+/*四楼结束*/
+div[class=clkw]{
+    width:100%;
+    height:38px;
+    background:#f0f0f0;
+    position:relative;
+}
+div[class=clkw] > div{
+    width:60%;
+    height:1px;
+    background:#4A84E2;
+    margin:0 auto;
+    position:absolute;
+    left:20%;
+    top:49%;
+}
+div[class=clkw] > h1{
+    width:30%;
+    height:38px;
+    line-height:38px;
+    color:#4A84E2;
+    position:absolute;
+    left:35%;
+    top:0;
+    background:#f0f0f0;
+    font-size:16px;
+    text-align:center;
+}
+div[class=clkw] > h1 > img{
+    height:18px;
+    margin-right:5px;
+}
+/*五楼*/
+div[class=fiveth]{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+div[class=fiveth] ul[class=three]{
+    width:100%;
+    height:auto;
+}
+div[class=fiveth] ul[class=three] li{
+    width:33%;
+    float:left;
+}
+div[class=fiveth] ul[class=three] li img{
+    width:100%;
+}
+/*五楼结束*/
+#pptm div{
+    background:#FF8000;
+}
+#pptm h1{
+    color:#ff8000;
+}
+/*六楼*/
+div[class=sixth]{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+div[class=sixth] > ul[class=four]{
+    width:100%;
+    height:auto;
+}
+div[class=sixth] > ul[class=four] > li{
+    width:50%;
+    float:left;
+}
+div[class=sixth] > ul[class=four] > li > img{
+    width:100%;
+}
+/*六楼结束*/
+#ppzx > div{
+    background:#009F8A;
+}
+#ppzx > h1{
+    color:#009F8A;
+}
+/*七楼*/
+div[class=seventh]{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+div[class=seventh] > ul[class=four]{
+    width:100%;
+    height:auto;
+}
+div[class=seventh] > ul[class=four] > li{
+    width:33%;
+    float:left;
+}
+div[class=seventh] > ul[class=four] > li img{
+    width:100%;
+}
+/*七楼结束*/
+img[class=long]{
+    width:100%;
+}
+#bjsh > div{
+    background:#43AF00;
+}
+#bjsh > h1{
+    color:#43AF00;
+}
+/*八楼*/
+div[class=eighth]{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+div[class=eighth] ul[class=five]{
+    width:100%;
+    height:auto;
+}
+div[class=eighth] ul[class=five] li{
+    width:55.8%;
+    height:auto;
+    float:left;
+}
+div[class=eighth] ul[class=five] li:first-child{
+    width:44.2%;
+    height:auto;
+    float:left;
+    border-right:1px solid #e4e4e4;
+    box-sizing:border-box;
+}
+div[class=eighth] ul[class=five] li:nth-child(2){
+    border-bottom:1px solid #e4e4e4;
+    box-sizing:border-box;
+}
+div[class=eighth] ul[class=five] li > a > img{
+    width:100%;
+}
+/*八楼结束*/
+#gjhg > div{
+    background:#8B37D4;
+}
+#gjhg > h1{
+    color:#8B37D4;
+}
+/*九楼*/
+div[class=nineth]{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+div[class=nineth] ul[class=six]{
+    width:100%;
+    height:auto;
+}
+div[class=nineth] ul[class=six] li{
+    width:33.3%;
+    height:auto;
+    float:left;
+}
+div[class=nineth] ul[class=six] li > a > img{
+    width:100%;
+}
+/*九楼结束*/
+#jxsc > div{
+    background:#DF62AB;
+}
+#jxsc > h1{
+    color:#DF62AB;
+}
+/*十楼*/
+div[class=tenth]{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+div[class=tenth] ul[class=seven]{
+    width:100%;
+    height:auto;
+}
+div[class=tenth] ul[class=seven] li{
+    width:25%;
+    height:auto;
+    float:left;
+}
+div[class=tenth] ul[class=seven] li:first-child{
+    border-right:1px solid #e4e4e4;
+    box-sizing:border-box;
+}
+div[class=tenth] ul[class=seven] li:nth-child(4)~li{
+    width:50%;
+    height:auto;
+    float:left;
+    border-top:1px solid #e4e4e4;
+    box-sizing:border-box;
+}
+div[class=tenth] ul[class=seven] li > a > img{
+    width:100%;
+}
+/*十楼结束*/
+#cwxh > div{
+    background:#999999;
+}
+#cwxh > h1{
+    color:#999999;
+}
+.cnxh{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+.cnxh > li{
+    width:50%;
+    margin-bottom:10px;
+    float:left;
+}
+.cnxh > li img{
+    width:100%;
+}
+.cnxh > li > p{
+    font-size:14px;
+    margin-left:5px;
+}
+.cnxh > li > div > h1{
+    font-size:12px;
+    margin-top:5px;
+    margin-left:5px;
+    color:#ED7474;
+    float:left;
+}
+/*bottom*/
+footer{
+    width:100%;
+    height:105px;
+    padding:20px 20px 0 20px;
+    border-top:1px solid #000;
+    box-sizing:border-box;
+}
+footer > div{
+    width:100%;
+    height:16px;
+    text-align:justify;
+    margin:0 auto;
+}
+footer > div:after{
+    content:"";
+    width:100%;
+    height:auto;
+    display:inline-block;
+}
+footer > div > a{
+    color:#000;
+    display:inline-block;
+}
+footer > div:nth-child(2){
+      width:100%;
+      height:80px;
+      font-size:12px;
+      padding-top:30px;
+      padding-bottom:40px;
+      text-align:center;
+      box-sizing:border-box;
+      color:#9A9A9A;
+}
+/*bottom-end*/

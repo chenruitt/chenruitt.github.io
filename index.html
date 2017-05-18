@@ -106,7 +106,11 @@
             margin: 150px auto 60px;
             border-radius: 50%;
             background-image: url(img/man.jpg);
+            transition: all 1s;
 
+        }
+        .tx:hover{
+            transform: scale(1.4);
         }
         .bg span{
             /*display: block;*/
@@ -152,6 +156,10 @@
             background-image:url(img/man.jpg);
             margin:0 auto;
             margin-top:100px;
+            transition: all 1s;
+        }
+        .my>div:hover{
+            transform:rotate(360deg);
         }
         .my>h1{
             width:100%;
@@ -285,7 +293,7 @@
         }
         .wangzhan,.youxi,.qita{
             width: 20%;
-            height: 50%;
+            /*height: 50%;*/
             /*background: rgba(18, 235, 255, 0.69);*/
             float: left;
             margin-left: 130px;
@@ -304,13 +312,22 @@
         .wangzhan>li>a:hover{
             font-size: 26px;
             font-weight: bold;
-            color:#eee;
-
-            transition: all 1s;
+            /*color:#eee;*/
+        }
+        .youxi>li>a:hover{
+            font-size: 26px;
+            font-weight: bold;
+            /*color:#eee;*/
+        }
+        .qita>li>a:hover{
+            font-size: 26px;
+            font-weight: bold;
+            /*color:#eee;*/
         }
 
         .wangzhan>li>a,.youxi>li>a,.qita>li>a{
             color: #000;
+            transition: all 1s;
         }
         a{
             text-decoration: none;
@@ -360,22 +377,24 @@
             <h1>My Sample Reels</h1>
         </div>
         <ul class="wangzhan">
-            <li><a href="凡客/index">凡客</a></li>
-            <li><a href="小米/index">小米</a></li>
-            <li><a href="天猫/index">天猫</a></li>
-            <li><a href="京东/index">京东</a></li>
-            <li><a href="沙发网/index">沙发</a></li>
-            <li><a href="10086/index">移动</a></li>
-            <li><a href="">银泰</a></li>
+            <li><a href="凡客/index.html">凡客</a></li>
+            <li><a href="小米/index.html">小米</a></li>
+            <li><a href="天猫/index.html">天猫</a></li>
+            <li><a href="京东/index.html">京东</a></li>
+            <li><a href="沙发网/index.html">沙发</a></li>
+            <li><a href="10086/index.html">移动</a></li>
+            <li><a href="银泰网/index.html">银泰</a></li>
+            <li><a href="tmall/tmall.html">天猫移动端</a></li>
+            <li><a href="优逸客官网/index.html">优逸客移动端</a></li>
         </ul>
         <ul class="youxi">
-            <li><a href="">打字游戏</a></li>
-            <li><a href="">贪吃蛇</a></li>
-            <li><a href="">扫雷</a></li>
+            <li><a href="游戏/打字游戏/index.html">打字游戏</a></li>
+            <li><a href="游戏/snake/snake.html">贪吃蛇</a></li>
+            <li><a href="游戏/扫雷.html">扫雷</a></li>
         </ul>
         <ul class="qita">
 
-            <li><a href="表盘.html">表盘</a></li>
+            <li><a href="其他/表盘.html">表盘</a></li>
             <li><a href="其他/绘图板/index.html">画板</a></li>
             <li><a href="其他/3D房子播放器/3D.html">3D房子播放器</a></li>
             <li><a href="其他/五一倒计时/index.html">六一倒计时</a></li>
@@ -422,7 +441,7 @@
     $(".container").fullpage({
             sectionsColor: ["", "", "orange", "pink"],
             slidesColor: ["#333", "#444", "#555"],
-            anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+            anchors: ['page1', 'page2', 'page3', 'page4'],
             loopBottom: true,  //是否从最后一屏到第一屏
             fixedElements: ".menu,.next",   //谁需要固定定位
             menu: "#menu",   //跳转对应页面
