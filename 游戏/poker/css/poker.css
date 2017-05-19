@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+body{
+    background-image: url("../img/bigbg.jpg");
+    background-size:100% auto;
+}
+.box{
+    width:700px;
+    height:600px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    box-sizing: border-box;
+}
+.left{
+    width:80px;
+    height:50px;
+    position:absolute;
+    bottom:5px;
+    left:50%;
+    margin-left: -40px;
+    background:red;
+    font-size:20px;
+    text-align:center;
+    line-height:50px;
+    font-family:'宋体';
+    color:#fff;
+    cursor: pointer;
+}
+.right{
+    width:80px;
+    height:50px;
+    position:absolute;
+    bottom:60px;
+    left:50%;
+    margin-left: -40px;
+    background:blueviolet;
+    font-size:20px;
+    text-align:center;
+    line-height:50px;
+    font-family:'宋体';
+    color:#fff;
+    cursor: pointer;
+}
+.pai{
+    width:90px;
+    height:130px;
+    position:absolute;
+    left:305px;
+    top:0;
+    opacity:0;
+    background-size: 100% auto;
+    box-sizing: border-box;
+    transition:margin 0.4s;
+}
+.move{
+    margin-top:-20px;
+}
