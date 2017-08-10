@@ -26,7 +26,7 @@
     </style>
     <body>
     	<div class="box">
-    		<h3>六一倒计时</h3>
+    		<h3>十一倒计时</h3>
 			<div class="now">
 				<span class="num">0</span><span>时</span>
 				<span class="num">0</span><span>分</span>
@@ -102,7 +102,7 @@
     				this.riqi=date;	
     			}
     			play(){
-    				let map=this.getchaTime()
+    				let map=this.getchaTime();
     				// super.writes(map);
     				this.writes(map);
     				this.update();
@@ -140,7 +140,7 @@
     				},1000);
     			}
     		}
-    		let wuyi=new Date(2017,5,1,0,0,0);
+    		let wuyi=new Date(2017,9,1,0,0,0);
     		let wydjs=new djstime(djsh,djsm,djss,djsd,wuyi);
     		// console.log(wydjs.riqi);
     		wydjs.play();
