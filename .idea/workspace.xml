@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6764060d-2c32-4f49-b1ac-3b4829f2eaf1" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/其他/五一倒计时/function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/其他/五一倒计时/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/A.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/B.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/C.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/D.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/E.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/F.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/G.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/H.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/I.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/J.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/K.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/L.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/M.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/N.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/O.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/P.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/Q.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/R.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/S.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/T.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/U.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/V.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/W.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/X.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/Y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/Z.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/choose.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/continue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/difficult.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/easy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/hard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/life.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/medium.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/music.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/p_03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/quit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/restart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/scor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/start.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/img/stopbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/游戏/打字游戏/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,12 +14,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-728">
-              <caret line="395" column="25" lean-forward="true" selection-start-line="395" selection-start-column="25" selection-end-line="395" selection-end-column="25" />
+            <state relative-caret-position="182">
+              <caret line="382" column="69" lean-forward="true" selection-start-line="382" selection-start-column="69" selection-end-line="382" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -78,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/其他/倒计时/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="702">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -88,7 +38,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/游戏/打字游戏/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3068">
+            <state relative-caret-position="13442">
               <caret line="517" column="9" lean-forward="false" selection-start-line="517" selection-start-column="9" selection-end-line="517" selection-end-column="9" />
               <folding />
             </state>
@@ -140,6 +90,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,24 +104,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mypage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mypage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="其他" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,6 +173,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -270,34 +212,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502334550009</updated>
-      <workItem from="1502334555781" duration="1401000" />
+      <workItem from="1502334555781" duration="3258000" />
+      <workItem from="1502380822351" duration="130000" />
+      <workItem from="1502412785424" duration="1401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1401000" />
+    <option name="totallyTimeSpent" value="4789000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -313,11 +257,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/游戏/img/A.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/其他/倒计时/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏/打字游戏/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13442">
+          <caret line="517" column="9" lean-forward="false" selection-start-line="517" selection-start-column="9" selection-end-line="517" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他/倒计时/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏/打字游戏/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13442">
+          <caret line="517" column="9" lean-forward="false" selection-start-line="517" selection-start-column="9" selection-end-line="517" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏/img/A.png" />
     <entry file="file://$PROJECT_DIR$/游戏/4.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -325,7 +313,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/游戏/打字游戏/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3068">
+        <state relative-caret-position="13442">
           <caret line="517" column="9" lean-forward="false" selection-start-line="517" selection-start-column="9" selection-end-line="517" selection-end-column="9" />
           <folding />
         </state>
@@ -333,16 +321,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/其他/倒计时/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="702">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-728">
-          <caret line="395" column="25" lean-forward="true" selection-start-line="395" selection-start-column="25" selection-end-line="395" selection-end-column="25" />
+        <state relative-caret-position="182">
+          <caret line="382" column="69" lean-forward="true" selection-start-line="382" selection-start-column="69" selection-end-line="382" selection-end-column="69" />
           <folding />
         </state>
       </provider>
